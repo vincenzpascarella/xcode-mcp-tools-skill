@@ -1,0 +1,25 @@
+{
+  "name": "xcode-mcp-tools-skill",
+  "version": "1.0.0",
+  "description": "On-demand reference for all mcp__xcode__* tools. Covers when to use each tool, key parameters, version requirements (26.3 vs 27+), gotchas, and common multi-tool workflows.",
+  "author": {
+    "name": "Vincenzo Pascarella"
+  },
+  "repository": "https://github.com/vincenzpascarella/xcode-mcp-tools-skill",
+  "license": "MIT",
+  "keywords": [
+    "xcode",
+    "mcp",
+    "ios",
+    "swift",
+    "apple",
+    "xcode-mcp",
+    "build",
+    "testing",
+    "debugging",
+    "device-interaction"
+  ],
+  "skills": [
+    "./xcode-mcp-tools-skill"
+  ]
+}

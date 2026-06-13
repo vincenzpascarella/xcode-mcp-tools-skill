@@ -1,0 +1,44 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "xcode-mcp-tools-skill",
+  "version": "1.0.0",
+  "owner": {
+    "name": "Vincenzo Pascarella"
+  },
+  "metadata": {
+    "description": "On-demand reference skill covering all 47 Xcode MCP tools across Xcode 26.3 and Xcode 27+."
+  },
+  "plugins": [
+    {
+      "name": "xcode-mcp-tools-skill",
+      "description": "On-demand reference for all mcp__xcode__* tools. Covers when to use each tool, key parameters, version requirements (26.3 vs 27+), gotchas, and common multi-tool workflows.",
+      "repository": "https://github.com/vincenzpascarella/xcode-mcp-tools-skill",
+      "version": "1.0.0",
+      "author": {
+        "name": "Vincenzo Pascarella"
+      },
+      "license": "MIT",
+      "category": "development",
+      "keywords": [
+        "xcode",
+        "mcp",
+        "ios",
+        "swift",
+        "apple",
+        "xcode-mcp",
+        "build",
+        "testing",
+        "debugging",
+        "device-interaction"
+      ],
+      "tags": [
+        "xcode",
+        "mcp",
+        "ios",
+        "swift",
+        "apple-platforms"
+      ],
+      "source": "./"
+    }
+  ]
+}

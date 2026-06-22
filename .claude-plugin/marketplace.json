@@ -10,7 +10,7 @@
   },
   "plugins": [
     {
-      "name": "xcode-mcp-tools-skill",
+      "name": "xcode-mcp-tools",
       "description": "On-demand reference for all mcp__xcode__* tools. Covers when to use each tool, key parameters, version requirements (26.3 vs 27+), gotchas, and common multi-tool workflows.",
       "repository": "https://github.com/vincenzpascarella/xcode-mcp-tools-skill",
       "version": "1.0.0",

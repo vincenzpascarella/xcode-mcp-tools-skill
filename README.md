@@ -30,13 +30,21 @@ No manual invocation needed.
 
 ## Installation
 
+### Any agent (universal)
+
+Works with Claude Code, Codex, Cursor, Gemini CLI, Kimi Code, OpenCode, Pi, and [60+ other agents](https://github.com/vercel-labs/skills):
+
+```bash
+npx skills add vincenzpascarella/xcode-mcp-tools-skill
+```
+
 ### Claude Code
 
 #### Personal usage
 
 ```
 /plugin marketplace add vincenzpascarella/xcode-mcp-tools-skill
-/plugin install xcode-mcp-tools-skill@xcode-mcp-tools-skill
+/plugin install xcode-mcp-tools@xcode-mcp-tools-skill
 /reload-plugins
 ```
 
@@ -44,13 +52,23 @@ No manual invocation needed.
 
 ```
 /plugin marketplace add /path/to/xcode-mcp-tools-skill
-/plugin install xcode-mcp-tools-skill@xcode-mcp-tools-skill-local
+/plugin install xcode-mcp-tools@xcode-mcp-tools-skill
 /reload-plugins
+```
+
+### OpenCode
+
+Add to your `opencode.json`:
+
+```json
+{
+  "plugin": ["xcode-mcp-tools@git+https://github.com/vincenzpascarella/xcode-mcp-tools-skill.git"]
+}
 ```
 
 ### Other agents
 
-Follow your tool's official documentation on installing Agent Skills. The skill content lives in `xcode-mcp-tools-skill/skills/xcode-mcp-tools/SKILL.md`.
+Follow your tool's official documentation on installing Agent Skills. The skill content lives in `xcode-mcp-tools/SKILL.md`.
 
 ## Requirements
 
@@ -64,10 +82,18 @@ xcode-mcp-tools-skill/                      Repo root
 ├── .claude-plugin/
 │   ├── marketplace.json                    Marketplace entry
 │   └── plugin.json                         Plugin manifest
-├── xcode-mcp-tools-skill/                  Plugin content
-│   └── skills/
-│       └── xcode-mcp-tools/
-│           └── SKILL.md                    All 47 tools, distilled reference
+├── .codex-plugin/
+│   └── plugin.json                         Codex plugin manifest
+├── .cursor-plugin/
+│   └── plugin.json                         Cursor plugin manifest
+├── .kimi-plugin/
+│   └── plugin.json                         Kimi plugin manifest
+├── .opencode/
+│   └── plugins/
+│       └── xcode-mcp-tools.js              OpenCode plugin entry point
+├── xcode-mcp-tools/
+│   └── SKILL.md                            All 47 tools, distilled reference
+├── package.json
 ├── README.md
 └── LICENSE
 ```

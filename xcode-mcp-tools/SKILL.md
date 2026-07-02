@@ -1,7 +1,7 @@
 ---
 name: xcode-mcp-tools
-description: Guides which mcp__xcode__* tool to call, what parameters it takes, and how to chain tools. Use whenever mcp__xcode__* tools are available in the session: building, testing, debugging, renaming files, investigating crashes, adding entitlements, translating strings, or driving a simulator. Also use when unsure whether to prefer an Xcode MCP tool over a built-in tool or shell command.
-when_to_use: Invoke when the user asks to build, run, test, debug, rename or move files, investigate a production crash, update build settings, add a privacy key, translate strings, or interact with a simulator; and mcp__xcode__* tools are available. Also invoke when deciding between an Xcode MCP tool and xcodebuild, mv, rm, mkdir, or a built-in Read/Edit/Grep tool.
+description: "Guides which mcp__xcode__* tool to call, what parameters it takes, and how to chain tools. Use whenever mcp__xcode__* tools are available in the session: building, testing, debugging, renaming files, investigating crashes, adding entitlements, translating strings, or driving a simulator. Also use when unsure whether to prefer an Xcode MCP tool over a built-in tool or shell command."
+when_to_use: "Invoke when the user asks to build, run, test, debug, rename or move files, investigate a production crash, update build settings, add a privacy key, translate strings, or interact with a simulator; and mcp__xcode__* tools are available. Also invoke when deciding between an Xcode MCP tool and xcodebuild, mv, rm, mkdir, or a built-in Read/Edit/Grep tool."
 ---
 
 # Xcode MCP Tools
